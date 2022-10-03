@@ -1325,7 +1325,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am/انا العزيز ${global.BotName}, a bot developed by: Elgazar to take your WhatsApp usage into next level/روبوت تم تطويره بواسطة: بوت السلطان للانتقال باستخدام واتساب إلى المستوى التالي.
+    Konichiwa ${pushname} dear 👋. I am/انا العزيز ${global.BotName}, a bot developed by: Elgazar to take your WhatsApp usage into next level/روبوت تم تطويره بواسطة: الجزار للانتقال باستخدام واتساب إلى المستوى التالي.
         
        「 System Info 」
     
@@ -1481,6 +1481,7 @@ reply(` لا تنسي الانضمام معنا❤️!
 
 *جروب 1*
 https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
+
 *جروب 2*
 https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
 *جروب 3*
@@ -1498,7 +1499,7 @@ break
 
 case 'support': case 'الدعم':
     
-    reply(`*جروب الدعم:*https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
+    reply(`*جروب الدعم:*https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8 `)
     break
 
 case 'الشرح': case 'الوصف':
@@ -1510,25 +1511,9 @@ case 'الشرح': case 'الوصف':
 
 *↵｢المقدم｣*
 
-*صانع البوت : يوسف السلطان  
- 
-لينك مطور البوت : https://api.whatsapp.com/send?phone=+201288455338
- 
-لو عايز تتبرع عشان استخدام البوت يبقا اكتر كل ال عليك هتشترك في القناه بتاعت اليوتيوب اللينك اهو 👇🏻 
- 
-https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA  
- 
- 
-ودا لينك الجروب👇🏻  
- 
-https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8  
- 
- 
-ودا الانستا : 1y._.o2@  
- 
-ولو عايز اي استفسار او فيه اي خطا كلم مطور البوت علي الفور وشكرا. *
+*✨️ | كريم السلطلن | YoUsSeF Al SoLtAn*
 *↵｢كيف تسوي بوت عربي｣*
-*↵｢https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA ｣*
+*↵｢ https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA ｣*
 *↵｢كيف تعدل على اوامر البوت العربي｣*
 *↵｢https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA｣*
 *｢رابط الاوامر الجديدة｣*
@@ -1536,7 +1521,7 @@ https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
 *↵｢نرجو ان تعملو لايك والاشتراك منها عشان يكبر جروب التعليم ومنها عشان ينتشر الفيديو والكل يستفيد✨🤗｣*
 
 *↵｢القروب｣*
-*↵｢https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8｣*
+*↵｢ https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8 ｣*
 *⌬━─━─｢🤖｣─━─━⌬*`)
     break
 
@@ -4838,8 +4823,8 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
       
  const helpmenu = `مرحبا *${pushname}*,
 
-انا *BOT - AL SOLTAN️*, 
-تم تطويره بواسطة * YoUsSeF Al SoLtAn️ *.
+انا *BOT - AL SOLTAN❤️*, 
+تم تطويره بواسطة * YoUsSeF Al SoLtAn❤️ *.
 
 ♠️ البادئة الخاصة بي هي:  ${prefix}
  
@@ -5141,11 +5126,11 @@ break
 
 
 
-case 'السلطان':
+case 'الجزار':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `السلطان بيحبك🌚/رقمي للتواصل معايا https://api.whatsapp.com/send?phone=+201288455338`
+const txt = `السلطان بيحبك🌚/رقمي للتواصل معايا https://api.whatsapp.com/send?phone=+20201288455338`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
