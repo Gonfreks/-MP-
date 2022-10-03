@@ -5126,7 +5126,7 @@ break
 
 
 
-case 'الجزار':
+case 'السلطان':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
@@ -5187,7 +5187,7 @@ case 'add': case 'اضافه':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-    if (!args[0]) return reply("من فضلك أعطني نصًا حتى أستطيع التحدث به!")
+    if (!args[0]) return reply("من فضلك اكتب اي شئ انجليزي و سوف انطقه!")
       
       let texttosay = text
         ? text
