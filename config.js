@@ -7,15 +7,15 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['201098906252']
-global.OwnerNumber = ['201098906252']
-global.ownertag = ['201098906252']
-global.BotName = "❤️ᗴᒪᘜᗩᘔᗩᖇ ᗷOT❤️"
-global.packname = "★الجزار الرزير يروحي]★"
-global.author = "★201098906252 ★"
-global.OwnerName = "ᗴᒪᘜᗩᘔᗩᖇ ᗩᒪᗯᗩᘔᗴᖇ❤️"
-global.BotSourceCode = "https://youtube.com/channel/UCxVaIay8BccgBtsofagA6_g"
-global.SupportGroupLink = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"
+global.Owner = ['201288455338']
+global.OwnerNumber = ['201288455338']
+global.ownertag = ['201288455338']
+global.BotName = "❤️BOT - AL SOLTAN❤️"
+global.packname = "YoUsSeF Al SoLtAn ]★"
+global.author = "★ 201288455338 ★"
+global.OwnerName = "YoUsSeF Al SoLtAn❤️"
+global.BotSourceCode = "https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA"
+global.SupportGroupLink = "https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8"
 global.sessionName = "session"
 
 // Prefix //
@@ -23,11 +23,11 @@ global.sessionName = "session"
 global.prefa = ['-'] 
 
 
-global.location = "bihar, India"
+global.location = "Egypt,Egypt"
 global.reactmoji = "❤️"
 global.themeemoji = "🍭"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
-global.websitex = "https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn"
+global.websitex = "https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8"
 global.lolhuman = "KaysaS"
 
 
