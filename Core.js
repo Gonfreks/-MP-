@@ -1325,7 +1325,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am/انا العزيز ${global.BotName}, a bot developed by: Elgazar to take your WhatsApp usage into next level/روبوت تم تطويره بواسطة: الجزار للانتقال باستخدام واتساب إلى المستوى التالي.
+    Konichiwa ${pushname} dear 👋. I am/انا العزيز ${global.BotName}, a bot developed by: Elgazar to take your WhatsApp usage into next level/روبوت تم تطويره بواسطة: بوت السلطان للانتقال باستخدام واتساب إلى المستوى التالي.
         
        「 System Info 」
     
@@ -1480,13 +1480,11 @@ if (isBanChat) return reply(mess.banChat)
 reply(` لا تنسي الانضمام معنا❤️!
 
 *جروب 1*
-https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn
-
+https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
 *جروب 2*
-https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY
-
+https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
 *جروب 3*
-https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn`)
+https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -1500,7 +1498,7 @@ break
 
 case 'support': case 'الدعم':
     
-    reply(`*جروب الدعم:*https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn `)
+    reply(`*جروب الدعم:*https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
     break
 
 case 'الشرح': case 'الوصف':
@@ -1512,17 +1510,33 @@ case 'الشرح': case 'الوصف':
 
 *↵｢المقدم｣*
 
-*↵｢اياتو سينسي | رايزل سينسي | لوفي عمكم سينسي｣*
+*صانع البوت : يوسف السلطان  
+ 
+لينك مطور البوت : https://api.whatsapp.com/send?phone=+201288455338
+ 
+لو عايز تتبرع عشان استخدام البوت يبقا اكتر كل ال عليك هتشترك في القناه بتاعت اليوتيوب اللينك اهو 👇🏻 
+ 
+https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA  
+ 
+ 
+ودا لينك الجروب👇🏻  
+ 
+https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8  
+ 
+ 
+ودا الانستا : 1y._.o2@  
+ 
+ولو عايز اي استفسار او فيه اي خطا كلم مطور البوت علي الفور وشكرا. *
 *↵｢كيف تسوي بوت عربي｣*
-*↵｢ https://youtu.be/MBPIx3f-VIA ｣*
+*↵｢https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA ｣*
 *↵｢كيف تعدل على اوامر البوت العربي｣*
-*↵｢https://youtu.be/NQBGISZsBdU｣*
+*↵｢https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA｣*
 *｢رابط الاوامر الجديدة｣*
-*｢https://youtu.be/zA_AF7EtKn4｣*
+*｢https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA｣*
 *↵｢نرجو ان تعملو لايك والاشتراك منها عشان يكبر جروب التعليم ومنها عشان ينتشر الفيديو والكل يستفيد✨🤗｣*
 
 *↵｢القروب｣*
-*↵｢ https://chat.whatsapp.com/CMp1e9NHmHU5K5sCM2mmKn ｣*
+*↵｢https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8｣*
 *⌬━─━─｢🤖｣─━─━⌬*`)
     break
 
@@ -4824,8 +4838,8 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
       
  const helpmenu = `مرحبا *${pushname}*,
 
-انا *BOT ELGAZAR❤️*, 
-تم تطويره بواسطة * ELGAZAR ALWAZER❤️ *.
+انا *BOT - AL SOLTAN️*, 
+تم تطويره بواسطة * YoUsSeF Al SoLtAn️ *.
 
 ♠️ البادئة الخاصة بي هي:  ${prefix}
  
@@ -5077,7 +5091,7 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
 
 
  『  *${global.BotName}*  』
- *تم التطوير بواسطه:الجزار*
+ *تم التطوير بواسطه:السلطان*
 `
 
 
@@ -5127,11 +5141,11 @@ break
 
 
 
-case 'الجزار':
+case 'السلطان':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `الجزار بيحبك🌚/رقمي للتواصل معايا https://api.whatsapp.com/send?phone=+201098906252ا.`
+const txt = `السلطان بيحبك🌚/رقمي للتواصل معايا https://api.whatsapp.com/send?phone=+201288455338`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
