@@ -20,7 +20,7 @@ global.sessionName = "session"
 
 // Prefix //
 // 🎗don't change the prefix if you can change the prefix may be bot doesn't work properly//
-global.prefa = ['  , ! , . , 🐦 , 🐤 , 🗿 '] 
+global.prefa = [' '] 
 
 
 global.location = "Egypt,Egypt"
