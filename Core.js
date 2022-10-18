@@ -687,9 +687,8 @@ let afkTime = user.afkTime
 if (!afkTime || afkTime < 0) continue
 let reason = user.afkReason || ''
 reply(`
-Pls try not to tag him!
-He's in away from keyboard ${reason ? 'with reason ' + reason : 'no reason'}
-During ${clockString(new Date - afkTime)}
+متعملش ريب عليه لانه في وضع الاختفاء الان ${reason ? 'السبب ' + reason : 'بدون سبب'}
+مده الغياب ${clockString(new Date - afkTime)}
 `.trim())
 }
 
@@ -874,13 +873,13 @@ if (antiVirtex) {
         if (AntiLinkAll)
            if (budy.includes("https://")){
         if (!isBotAdmins) return
-        bvl = `\`\`\`「  Antilink System/منع الروابط  」\`\`\`\n\nLink sent by Admin so no action will be taken/الادمن ارسل رابط والادمن حر في ارسال اي روابط!`
+        bvl = `\`\`\`「  منع الروابط  」\`\`\`\n\nالادمن ارسل رابط والادمن حر في ارسال اي روابط!`
         if (isAdmins) return reply(bvl)
         if (m.key.fromMe) return reply(bvl)
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System/منع الروابط  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending links in this group/تم طرده لإرسال الروابط في هذه المجموعة!!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  منع الروابط  」\`\`\`\n\n@${kice.split("@")[0]} تم طرده لإرسال الروابط في هذه المجموعة!!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -1325,7 +1324,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am/انا العزيز ${global.BotName}, a bot developed by: Elgazar to take your WhatsApp usage into next level/روبوت تم تطويره بواسطة: الجزار للانتقال باستخدام واتساب إلى المستوى التالي.
+    Konichiwa ${pushname} dear 👋. I am/انا العزيز ${global.BotName}, a bot developed by: Elgazar to take your WhatsApp usage into next level/روبوت تم تطويره بواسطة: السلطان للانتقال باستخدام واتساب إلى المستوى التالي.
         
        「 System Info 」
     
@@ -1372,9 +1371,9 @@ switch(command) {
     case 'sc': case 'التبرع': case 'sourcecode': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}'s Script*\n\n*Yotube/يوتيوب*: ${global.BotSourceCode}\n\nلا تنسي الاشتراك بقناه اليوتيوب⭐️. `
+    teks = `*${global.BotName}' سكريبت*\n\n*يوتيوب*: ${global.BotSourceCode}\n\nلا تنسي الاشتراك بقناه اليوتيوب⭐️. `
     let buttons = [
-    {buttonId: `-menu`, buttonText: {displayText: '✨Bot Menu/قائمه البوت✨'}, type: 1}
+    {buttonId: `-menu`, buttonText: {displayText: 'قائمه البوت✨'}, type: 1}
     ]
     let buttonMessage = {
     image: Thumb,
@@ -1511,7 +1510,7 @@ case 'الشرح': case 'الوصف':
 
 *↵｢المقدم｣*
 
-*✨️ | كريم السلطلن | YoUsSeF Al SoLtAn*
+*يوسف السلطان 🎭*
 *↵｢كيف تسوي بوت عربي｣*
 *↵｢ https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA ｣*
 *↵｢كيف تعدل على اوامر البوت العربي｣*
@@ -1585,7 +1584,7 @@ break
 case 'wallpaper': case 'animewallpaper': case 'ويلبر': {
 if (isBan) return reply(mess.banned)	 			
 if (isBanChat) return reply(mess.bangc)
-if (!args.join(" ")) return reply("Please enter a term to search!")
+if (!args.join(" ")) return reply("اكتب اسم الانمي اللي تبحث عنو بالانجليزي!")
 const { AnimeWallpaper } =require("anime-wallpaper")
 const wall = new AnimeWallpaper();
 const pages = [1,2,3,4];
@@ -1598,7 +1597,7 @@ let buttons = [
         ]
         let buttonMessage = {
             image: {url:wallpaper[i].image},
-            caption: `*Search term:* ${q}`,
+            caption: `*موضوع البحث:* ${q}`,
             footer: `${BotName}`,
             buttons: buttons,
             headerType: 4
@@ -1746,7 +1745,7 @@ case 'coffee': case 'قهوه': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
                 let buttons = [
-                        {buttonId: `-coffee`, buttonText: {displayText: '>>'}, type: 1}
+                        {buttonId: `-قهوه`, buttonText: {displayText: '>>'}, type: 1}
                     ]
                     let buttonMessage = {
                         image: { url: 'https://coffee.alexflipnote.dev/random' },
@@ -2192,7 +2191,7 @@ await Miku.sendMessage(m.chat, { delete: key })
  members.map(async adm => {
  mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
  })
- Miku.sendMessage(from, {text: `\`\`\`「 تحذير 」\`\`\`\n\nتم تنشيط نظام منع الروابط!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+ Miku.sendMessage(from, {text: `\`\`\`「 تحذير 」\`\`\`\n\nتم تنشيط نظام منع الروابط اي شخص سيرسل رابط سيتم طرده علي الفور!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
  } else if (args[0] === "off") {
  if (!AntiLinkAll) return replay('تم إلغاء تنشيطه بالفعل')
  let off = ntilinkall.indexOf(from)
@@ -2294,7 +2293,7 @@ replay(`تم حظر المستخدم بنجاح.`)
 if (!isBane) return ads('User is already unbanned.')
 let delbans = banUser.indexOf(orgnye)
 banUser.splice(delbans, 1)
-replay(`تم بنجاح إلغاء حظر المستخدم بنجاح.`)
+replay(`تم إلغاء حظر المستخدم بنجاح.`)
 } else {
 replay("ايرور🙂!")
 }
@@ -2636,7 +2635,7 @@ let mentioned = participants.map(v => v.jid)
      }
      break
 
-     case 'promote': case 'رفع': {
+     case 'ارفع': case 'رفع': case 'ترقيه': case 'ترقية': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!m.isGroup) return replay(mess.grouponly)
@@ -2647,7 +2646,7 @@ let mentioned = participants.map(v => v.jid)
      }
      break
 
-     case 'demote': case 'تنزيل': {
+     case 'نزل': case 'تنزيل': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!m.isGroup) return replay(mess.grouponly)
@@ -2658,7 +2657,7 @@ let mentioned = participants.map(v => v.jid)
      }
      break
 
-     case 'remove': case 'طرد': case 'اطرد':{
+     case 'طلع': case 'طرد': case 'اطرد':{
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!m.isGroup) return replay(mess.grouponly)
@@ -2670,7 +2669,7 @@ let mentioned = participants.map(v => v.jid)
      break
 
 
-     case 'join': case 'انضم': {
+     case 'ادخل': case 'انضم': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!isCreator) return replay(mess.botowner)
@@ -2951,7 +2950,7 @@ gis(args.join(" "), async (error, result) => {
 n = result
 images = n[Math.floor(Math.random() * n.length)].url
 let buttons = [
-{buttonId: `-gimage ${args.join(" ")}`, buttonText: {displayText: '>>'}, type: 1}
+{buttonId: `-صوره ${args.join(" ")}`, buttonText: {displayText: '>>'}, type: 1}
 ]
 let buttonMessage = {
 image: { url: images },
@@ -3005,7 +3004,7 @@ case 'google': case 'جوجل': {
  }
  ilod = 1
  for (let i of ini_anu) {
- anu_list.push({buttonId: `-ig ${i.type} ${i.url}`, buttonText: {displayText: `وسائل الاعلام ${ilod++}`}, type: 1})
+ anu_list.push({buttonId: `-انستجرام ${i.type} ${i.url}`, buttonText: {displayText: `وسائل الاعلام ${ilod++}`}, type: 1})
  }
  textbv += `\n\n_Select the media below to download_`
  let buttons = anu_list
@@ -3128,7 +3127,7 @@ if (isBanChat) return reply(mess.bangc)
 if (!args[0]) return reply(`Example :\n${prefix + command} https://twitter.com/cinema21/status/1517754155644821504?t=rUnbyqwh4vAE1QXMXlsVeQ&s=19`)
 try {
 let lotwit = await aiovideodl(args[0])
-teks = `「 _Twitter Downloader_ 」
+teks = `「 التحميل من تويتر_ 」
 Caption : ${lotwit.title ? lotwit.title : "undefined"}
 Type : ${lotwit.medias[1].extension}
 Size : ${lotwit.medias[1].formattedSize}
@@ -3256,7 +3255,7 @@ case 'fbddlxx': {
  }
  break
 
- case 'tiktok':{
+ case 'تيكتوك':{
     if (isBan) return reply(mess.banned)
   if (isBanChat) return reply(mess.bangc)
 if (!q) return reply('Please provide the link !')
@@ -3300,7 +3299,7 @@ reply(mess.error)
 break
 
 case 'tiktokaudio':
-case 'tiktokmusic':
+case 'التبرعmusic':
 case 'ttaud':{
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
@@ -3485,8 +3484,8 @@ if (isBanChat) return reply(mess.bangc)
          reply(mess.waiting)
          let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
          let random = anu[Math.floor(Math.random() * anu.length)]
-         Miku.sendMessage(m.chat, { image: { url: random.male }, caption: `ولد🙎` }, { quoted: m })
-         Miku.sendMessage(m.chat, { image: { url: random.female }, caption: `بنت🙎🏻‍♀️` }, { quoted: m })
+         Miku.sendMessage(m.chat, { image: { url: random.male }, caption: `ولد🙎🏻‍♂️` }, { quoted: m })
+         Miku.sendMessage(m.chat, { image: { url: random.female }, caption: `بنت️🙎🏻‍♀️` }, { quoted: m })
      }
  break
 
@@ -4148,7 +4147,7 @@ case 'نوم' :
 reply(mess.waiting)
     waifudd = await axios.get(`https://waifu.pics/api/sfw/nom`)
  let xxhnekobot = [
-    {buttonId: `-animenom`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `-نوم`, buttonText: {displayText: `>>`}, type: 1},
     ]
   let xx1button3Messages = {
    image: {url:waifudd.data.url},
@@ -4168,7 +4167,7 @@ case 'وايفي2':
 reply(mess.waiting)						
  waifudd = await axios.get(`https://nekos.life/api/v2/img/waifu`)
                            var wbuttsss = [
-        {buttonId: `وايفي2`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `-وايفي2`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let button112ssMessages = {
        image: {url:waifudd.data.url},
@@ -4215,7 +4214,7 @@ case 'نيكو2':
 reply(mess.waiting)							
    waifud = await axios.get('https://waifu.pics/api/sfw/neko')
                 var wbutsss = [
-        {buttonId: `نيكو2`, buttonText: {displayText: `>>`}, type: 1},
+        {buttonId: `-نيكو2`, buttonText: {displayText: `>>`}, type: 1},
         ]
       let buttonssMessage = {
        image: {url:waifud.data.url},
@@ -4642,7 +4641,7 @@ case 'مانجا':
 reply(mess.waiting)							
 const { Manga } =require("@shineiichijo/marika")
 const manga = new Manga();
-if(!q) return reply(`Please proide a search term!\n\n_Example:_ ${prefix}manga naruto`)
+if(!q) return reply(`اكتب اسم شخصيه انمي للبحث!\n\n_مثال:_ ${prefix}مانجا naruto`)
 let srh = await manga.searchManga(q)
     let mang = `*Title:* ${srh.data[0].title}\n`;
     mang += `*Status:* ${srh.data[0].status}\n`;
@@ -4679,7 +4678,7 @@ case 'وايفي' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/waifu')
  var wbuttsssr = [
-    {buttonId: `وايفي2`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `-وايفي`, buttonText: {displayText: `>>`}, type: 1},
     ]
         let button4Messagess = {
         image: {url:waifuddd.data.url},
@@ -4700,7 +4699,7 @@ case 'نيكو' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/neko')
  var wbuttsssr = [
-    {buttonId: `نيكو`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `-نيكو`, buttonText: {displayText: `>>`}, type: 1},
     ]
         let buttonMessagessf = {
         image: {url:waifuddd.data.url},
@@ -4722,7 +4721,7 @@ case 'لولي' :
 reply(mess.waiting)	
     waifuddd = await axios.get('https://waifu.pics/api/sfw/shinobu')
  var wbuttsssr = [
-    {buttonId: `لولي`, buttonText: {displayText: `>>`}, type: 1},
+    {buttonId: `-لولي`, buttonText: {displayText: `>>`}, type: 1},
     ]
         let buttonMessagessfgr = {
         image: {url:waifuddd.data.url},
@@ -4823,12 +4822,10 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
       
  const helpmenu = `مرحبا *${pushname}*,
 
-انا *BOT - AL SOLTAN❤️*, 
-تم تطويره بواسطة * YoUsSeF Al SoLtAn❤️ *.
+انا *BOT EL SOLTAN❤️*, 
+تم تطويره بواسطة YOUSSEF AL SOLTAN❤️ *.
 
 ♠️ البادئة الخاصة بي هي:  ${prefix}
-
-ولا تنسي ان تكتب - قبل كل امر
  
 ⋄═──═◞🔰 قائمة العضو 🔰◟━──━⋄
 
@@ -4887,6 +4884,9 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
 
 ⧉ -مخفي
 ⧉ منشن مخفي لكل الاعضاء 
+
+⧉ -المتصلين
+⧉ يجيب لك الاعضاء المتصله
  
 ⧉ -حذف
 ⧉ حذف رسالة البوت والاعضاء
@@ -5068,11 +5068,13 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
 ⧉ -اختفاء
 ⧉ اترك سبب ذاهبك
 
- ⋄═──═◞❌ قائمه الاباحي ❌◟━──━⋄
+ ⋄═──═◞🔥 قائمه شكر المطور 🔥◟━──━⋄
 
-🍁 انقر فوق زر الاباحي للعمل 🔞
+🍁 اضغط علي كلمه صانع البوت
 
-🍁 ثم اكتب " *${prefix}قائمه-الاباحي* " للحصول على قائمة كاملة بأوامر الاباحي.
+🍁 اهلا بك انا المطور ورقمي اهو 
+https://api.whatsapp.com/send?phone=+201288455338
+يوتيوب: https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA .
 
 
 
@@ -5086,7 +5088,7 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
 
     {buttonId: `-owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1},
 
-    {buttonId: `-nsfw`, buttonText: {displayText: 'الاباحي❌'}, type: 1}
+    {buttonId: `-nsfw`, buttonText: {displayText: 'صانع البوت'}, type: 1}
 
     ]
                 let buttonMessage = {
@@ -5110,7 +5112,7 @@ case '':
       mikupic ='https://telegra.ph/file/f1a719ad79f830231d984.jpg'
     
         
- const needhelpmenu = `اهلا بك في بوت السلطان اري انك تحتاج بعض المساعده برجاء كتابه اوامر *${prefix}*  او اضغط علي القائمه.`
+ const needhelpmenu = `مرحبا بك في بوت السلطان لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه *${prefix}*.`
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
@@ -5128,11 +5130,11 @@ break
 
 
 
-case 'السلطان':
+case 'السلطان': case 'سلطان': case 'يوسف السلطان':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `السلطان بيحبك🌚/رقمي للتواصل معايا https://api.whatsapp.com/send?phone=+201288455338`
+const txt = `الجزار بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201288455338 / قناتي علي اليوتيوب: انستجرام https://instagram.com/ 1y._.o2`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
