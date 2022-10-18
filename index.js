@@ -26,8 +26,8 @@ console.log(color(figlet.textSync('chiku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Ayush, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: Ayush-pandey-u','aqua'))
+console.log(color('\nمرحبًا ، أنا السلطان ، المطور الرئيسي لهذا البوت.\n\nشكرًا لاستخدام: ELGAZAR BOT','aqua'))
+console.log(color('\nافرح تم تشغيل البوت بنجاح✅','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
@@ -151,14 +151,14 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 mikutext = `
 هلا بيك يعمري @${WAuserName.split("@")[0]},
 
-انا *BOT - AL SOLTAN*, مرحبا بك في ${metadata.subject}.
+انا *ᗷOT-AL SOLTAN*, مرحبا بك في ${metadata.subject}.
 
 *وصف الجروب:*
 ${metadata.desc}
 `
 
     let buttonMessage = {
-    image: await getBuffer(ppgroup),
+    image: await getBuffer(ppuser),
     mentions: [num],
     caption: mikutext,
     footer: `${global.BotName}`,
