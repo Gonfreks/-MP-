@@ -2817,7 +2817,7 @@ case 'public': case 'عام': {
  if (!isCreator) return reply(mess.owner)
  Miku.public = true
  reply('انا الان عام للجميع!')
- Miku.setStatus(`حاله البوت عام`)
+ Miku.setStatus(`اهلا بك ☑, انا بوت واتساب عربي لمعرفه الاوامر اكتب -اوامر او -menu مطوري:+201288455338`)
  }
  break
  
@@ -4825,7 +4825,11 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
 انا *BOT EL SOLTAN❤️*, 
 تم تطويره بواسطة YOUSSEF AL SOLTAN❤️ *.
 
-♠️ البادئة الخاصة بي هي:  ${prefix}
+♠️ لا تنسي تكتب هذه قبل كل امر:  ${prefix}
+
+
+
+https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
  
 ⋄═──═◞🔰 قائمة العضو 🔰◟━──━⋄
 
@@ -5069,8 +5073,8 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
 ⧉ اترك سبب ذاهبك
 
  ⋄═──═◞🔥 قائمه شكر المطور 🔥◟━──━⋄
+🍁 اهلا بك في البوت السلطان نشكر الله علي هذا العمل العظيم
 
-🍁 اضغط علي كلمه صانع البوت
 
 🍁 اهلا بك انا المطور ورقمي اهو 
 https://api.whatsapp.com/send?phone=+201288455338
@@ -5088,7 +5092,7 @@ https://api.whatsapp.com/send?phone=+201288455338
 
     {buttonId: `-owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1},
 
-    {buttonId: `-nsfw`, buttonText: {displayText: 'صانع البوت'}, type: 1}
+    {buttonId: `-nsfw`, buttonText: {displayText: 'صانع البوت يوسف السلطان'}, type: 1}
 
     ]
                 let buttonMessage = {
@@ -5134,7 +5138,7 @@ case 'السلطان': case 'سلطان': case 'يوسف السلطان':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `الجزار بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201288455338 / قناتي علي اليوتيوب: انستجرام https://instagram.com/ 1y._.o2`
+const txt = `السلطان بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201288455338 / قناتي علي اليوتيوب: انستجرام https://instagram.com/ 1y._.o2`
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
