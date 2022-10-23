@@ -1,12 +1,12 @@
 <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
-<img align="center" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
+<img align="center" alt="GIF" src="https://giffiles.alphacoders.com/345/34529.gif" width="500"/>
 
 
 
 
 
 </p>
-<h1 align="center"> YoUsSeF Al SoLtAn❤️
+<h1 align="center"> Lelouch Lamperouge 🖤
 </h1>
 <p align="center"> 
   Konochiwa Senpai, I am "chiku md " a WhatsApp bot made by Ayush to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
