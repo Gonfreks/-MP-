@@ -7,13 +7,13 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['201288455338']
-global.OwnerNumber = ['201288455338']
-global.ownertag = ['201288455338']
-global.BotName = "❤️BOT - AL SOLTAN❤️"
-global.packname = "YoUsSeF Al SoLtAn ]★"
-global.author = "★ 201288455338 ★"
-global.OwnerName = "YoUsSeF Al SoLtAn❤️"
+global.Owner = ['905347856051']
+global.OwnerNumber = ['905347856051']
+global.ownertag = ['905347856051']
+global.BotName = "🖤Lelouch TheLegend🖤"
+global.packname = "Lelouch.🖤]★"
+global.author = "★ 905347856051 ★"
+global.OwnerName = "Lelouch"
 global.BotSourceCode = "https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA"
 global.SupportGroupLink = "https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8"
 global.sessionName = "session"
@@ -24,8 +24,8 @@ global.prefa = ['-']
 
 
 global.location = "Egypt,Egypt"
-global.reactmoji = "❤️"
-global.themeemoji = "🍭"
+global.reactmoji = "🖤"
+global.themeemoji = "✔"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
 global.websitex = "https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8"
 global.lolhuman = "KaysaS"
@@ -59,17 +59,17 @@ global.ntilink = []
 
 global.mess = {
     jobdone: 'تم...',
-    useradmin: 'الامر دا لادمن بس!',
-    botadmin: 'ارفع البوت ادمن الاول.',
-    botowner: 'الميزه دي للمالك بس!',
-    grouponly: 'الميزه دي للجروبات بس!',
-    privateonly: 'الميزه دي في الخاص بس!',
-    botonly: 'الميزه دي للبوت بس!',
-    waiting: 'استني شويه...',
-    nolink: 'فين الرابط?',
-    error: 'ايرور!',
-    banned: 'انت محظور من استخدام البوت اتواصل مع المطور لالغاء حظرك!',
-    bangc: 'تم حظر الجروب دا من استخدام البوت!',
+    useradmin: '*خليك ادمن وارجع جرب*',
+    botadmin: '*ارفعنا ادمن*',
+    botowner: '*الميزه ذي للمالك فقط!*',
+    grouponly: '*الميزه ذي للجروبات فقط!*',
+    privateonly: '*الميزه ذي في الخاص فقط!*',
+    botonly: '*الميزه ذي للبوت فقط!*',
+    waiting: '*انتظر....*',
+    nolink: '*فين الرابط ؟*',
+    error: '*ايرور!*',
+    banned: '*انت محظور من استخدام البوت اتواصل مع المطور لالغاء حظرك!*',
+    bangc: '*تم حظر الجروب ذا من استخدام البوت!*',
     nonsfw: 'لا تكن منحرفا هذه المجموعه ليست لاباحي!'
     
 }
