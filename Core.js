@@ -5136,7 +5136,7 @@ case 'Lelouch': case 'Lelouch': case 'Lelouch Lamperouge ':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `لولوش بخدمتك🖤/للتواصل معايا: https://api.whatsapp.com/send?phone=+905347856051 /
+const txt = `لولوش بخدمتك🖤/ للتواصل معايا: https://api.whatsapp.com/send?phone=+201288455338 / `
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
