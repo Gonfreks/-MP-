@@ -1510,7 +1510,7 @@ case 'الشرح': case 'الوصف':
 
 *↵｢المقدم｣*
 
-*يوسف السلطان 🎭*
+*بوت*
 *↵｢كيف تسوي بوت عربي｣*
 *↵｢ https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA ｣*
 *↵｢كيف تعدل على اوامر البوت العربي｣*
@@ -2241,7 +2241,7 @@ await Miku.sendMessage(m.chat, { delete: key })
    break
 
 
-   case 'nsfw': case 'الاباحي': {
+   case 'nsfw': case 'كنسل': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  if (!m.isGroup) return replay(mess.grouponly)
@@ -2250,19 +2250,19 @@ await Miku.sendMessage(m.chat, { delete: key })
  if (args[0] === "on") {
  if (AntiNsfw) return replay('نشط بالفعل')
  ntnsfw.push(from)
- replay('تم تمكين ميزه الاباحي!')
+ replay('تم تمكين ميزه !')
  var groupe = await Miku.groupMetadata(from)
  var members = groupe['participants']
  var mems = []
  members.map(async adm => {
  mems.push(adm.id.replace('c.us', 's.whatsapp.net'))
  })
- Miku.sendMessage(from, {text: `\`\`\`「 ملاحظه 」\`\`\`\n\nتم فتح ميزه الاباحي وكدا كل الاعضاء يقدرو يشغلو الاباحي في الجروب!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
+ Miku.sendMessage(from, {text: `\`\`\`「 ملاحظه 」\`\`\`\n\nتم فتح ميزه  وكدا كل الاعضاء يقدرو يشغلو  في الجروب!`, contextInfo: { mentionedJid : mems }}, {quoted:m})
  } else if (args[0] === "off") {
  if (!AntiNsfw) return replay('تم إلغاء تنشيطه بالفعل')
  let off = ntnsfw.indexOf(from)
  ntnsfw.splice(off, 1)
- replay('اوامر الاباحي معطله!')
+ replay('اوامر  معطله!')
  } else {
    let buttonsntnsfw = [
    { buttonId: `-nsfw on`, buttonText: { displayText: 'فتح' }, type: 1 },
