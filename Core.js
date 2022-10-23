@@ -4822,8 +4822,8 @@ case 'help': case 'القائمه': case 'menu': case 'مساعده': case 'ال
       
  const helpmenu = `مرحبا *${pushname}*,
 
-انا *BOT EL SOLTAN❤️*, 
-تم تطويره بواسطة YOUSSEF AL SOLTAN❤️ *.
+انا *BOT Lelouch 🖤*, 
+تم تطويره بواسطة Lelouch Lamperouge*.
 
 ♠️ لا تنسي تكتب هذه قبل كل امر:  ${prefix}
 
@@ -5072,19 +5072,17 @@ https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8
 ⧉ -اختفاء
 ⧉ اترك سبب ذاهبك
 
- ⋄═──═◞🔥 قائمه شكر المطور 🔥◟━──━⋄
-🍁 اهلا بك في البوت السلطان نشكر الله علي هذا العمل العظيم
+ ⋄═──═◞🖤 قائمه شكر المطور 🖤◟━──━⋄
+🍁 اهلا بك في بوت لولوش نشكر الله علي هذا العمل الرائع
 
 
 🍁 اهلا بك انا المطور ورقمي اهو 
-https://api.whatsapp.com/send?phone=+201288455338
-يوتيوب: https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA .
-
+https://api.whatsapp.com/send?phone=+905347856051
 
 
 
  『  *${global.BotName}*  』
- *تم التطوير بواسطه:السلطان*
+ *تم التطوير بواسطه:لولوش*
 `
 
 
@@ -5092,7 +5090,7 @@ https://api.whatsapp.com/send?phone=+201288455338
 
     {buttonId: `-owner`, buttonText: {displayText: 'مطور البوت👤'}, type: 1},
 
-    {buttonId: `-nsfw`, buttonText: {displayText: 'صانع البوت يوسف السلطان'}, type: 1}
+    {buttonId: `-nsfw`, buttonText: {displayText: 'صانع البوت لولوش'}, type: 1}
 
     ]
                 let buttonMessage = {
@@ -5116,7 +5114,7 @@ case '':
       mikupic ='https://telegra.ph/file/f1a719ad79f830231d984.jpg'
     
         
- const needhelpmenu = `مرحبا بك في بوت السلطان لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه *${prefix}*.`
+ const needhelpmenu = `مرحبا بك في بوت لولوش لظهور قائمه الاوامر اكتب -الاوامر او اضغط علي القائمه *${prefix}*.`
      
          let butRun = [
                 {buttonId: `-help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
@@ -5134,11 +5132,11 @@ break
 
 
 
-case 'السلطان': case 'سلطان': case 'يوسف السلطان':
+case 'Lelouch': case 'Lelouch': case 'Lelouch Lamperouge ':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `السلطان بيحبك🌚❤️ / رقمي للتواصل معايا: https://api.whatsapp.com/send?phone=+201288455338 / قناتي علي اليوتيوب: انستجرام https://instagram.com/ 1y._.o2`
+const txt = `لولوش بخدمتك🖤/للتواصل معايا: https://api.whatsapp.com/send?phone=+905347856051 /
 const mikuarray= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
