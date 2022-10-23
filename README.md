@@ -1,5 +1,5 @@
 <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
-<img align="right" alt="GIF" src="https://giffiles.alphacoders.com/345/34529.gif" width="500"/>
+<img align="left" alt="GIF" src="https://giffiles.alphacoders.com/345/34529.gif" width="500"/>
 
 
 
