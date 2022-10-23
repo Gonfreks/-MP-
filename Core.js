@@ -4703,7 +4703,7 @@ reply(mess.waiting)
     ]
         let buttonMessagessf = {
         image: {url:waifuddd.data.url},
-        caption: 'اي خدمه يروحي🌚❤️...',
+        caption: '...',
         buttons: wbuttsssr,
         headerType: 2
          }     
