@@ -1,5 +1,5 @@
 <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
-<img align="left" alt="GIF" src=" https://telegra.ph/file/1592262447c5ce8714b60.jpg" width="500"/>
+<img align="left" alt="GIF" src="https://telegra.ph/file/1592262447c5ce8714b60.jpg" width="500"/>
 
 ## اهلاً وسهلا بك في منصتي🤭
 
