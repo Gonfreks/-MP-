@@ -58,7 +58,7 @@
 
 ## ✧✧✧ Video tutorial for Heroku Deploy:
 
-<a href="https://youtu.be/DcJ7qMXUcTM"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
+<a href="https://youtu.be/nesSv2Gbh9s"><img src="https://i.ibb.co/71mYRh4/116-1161192-podcast-subscribe-listen-button-youtube-sign-hd-png.png" alt="Watch tutorial on YouTube" border="0"  width="160"></a>
 
 Here's the Video Tuturial for Deploying and Hosting Miku Bot on Heroku.
 
@@ -104,7 +104,7 @@ heroku/nodejs
 
 ## ✧✧✧ Join My Whatsapp Group for Support
 
-<a href="https://chat.whatsapp.com/DYp7FwfL9xsKURihcdT0l8"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/BTAfDaCPUoRBxFSRjMJ2Hk"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </a>
 
 ## ✧✧✧ CMD Deployment Method
