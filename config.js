@@ -7,15 +7,15 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['905347856051']
-global.OwnerNumber = ['905347856051']
-global.ownertag = ['905347856051']
-global.BotName = "🖤Lelouch TheLegend🖤"
-global.packname = "Lelouch.🖤]★"
-global.author = "★ 905347856051 ★"
-global.OwnerName = "Lelouch"
-global.BotSourceCode = "https://youtube.com/channel/UCf57gAihG_YlH7Rj-gbKuHA"
-global.SupportGroupLink = "https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8"
+global.Owner = ['967771160204']
+global.OwnerNumber = ['967730348571']
+global.ownertag = ['967771160204']
+global.BotName = "🖤الامبراطور انوس 🖤"
+global.packname = "「⚜️」𒆜ËMPËŖÖŖ ÄŅŮŚ.🖤]★"
+global.author = "★ 967771160204 ★"
+global.OwnerName = "انوس"
+global.BotSourceCode = "https://youtu.be/nesSv2Gbh9s"
+global.SupportGroupLink = "https://api.whatsapp.com/send?phone=+967730348571"
 global.sessionName = "session"
 
 // Prefix //
