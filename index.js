@@ -26,7 +26,7 @@ console.log(color(figlet.textSync('chiku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nمرحبًا ، أنا الطاغية لولوش ، المطور الرئيسي لهذا البوت.\n\nشكرًا لاستخدام: ELGAZAR BOT','aqua'))
+console.log(color('\nمرحبًا ، أنا الطاغية انوس ، المطور الرئيسي لهذا البوت.\n\nشكرًا لاستخدام: ELGAZAR BOT','aqua'))
 console.log(color('\n تم تشغيل البوت بنجاح✅','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
