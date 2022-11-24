@@ -7,12 +7,12 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['967771160204']
-global.OwnerNumber = ['967730348571']
-global.ownertag = ['967771160204']
-global.BotName = "🖤الامبراطور انوس 🖤"
-global.packname = "「⚜️」𒆜ËMPËŖÖŖ ÄŅŮŚ.🖤]★"
-global.author = "★ 967771160204 ★"
+global.Owner = ['201146121794']
+global.OwnerNumber = ['201146121794']
+global.ownertag = ['201146121794']
+global.BotName = "🖤𝘌𝘓𝘡3𝘌𝘔 𝘎𝘖𝘕🖤"
+global.packname = "★◤𝘌𝘓𝘡3𝘌𝘔🎭𝘎𝘖𝘕◢★"
+global.author = "★ 201146121794 ★"
 global.OwnerName = "انوس"
 global.BotSourceCode = "https://youtu.be/nesSv2Gbh9s"
 global.SupportGroupLink = "https://api.whatsapp.com/send?phone=+967730348571"
