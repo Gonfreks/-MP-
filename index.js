@@ -26,7 +26,7 @@ console.log(color(figlet.textSync('chiku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nمرحبًا ، أنا الطاغية انوس ، المطور الرئيسي لهذا البوت.\n\nشكرًا لاستخدام: ELGAZAR BOT','aqua'))
+console.log(color('\nمرحبًا ،أنا الـزعيـم غــون ، المطور الرئيسي لهذا البوت.\n\nشكرًا لاستخدام: ELGAZAR BOT','aqua'))
 console.log(color('\n تم تشغيل البوت بنجاح✅','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
@@ -151,7 +151,7 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 mikutext = `
 هلا بالغالي نورت @${WAuserName.split("@")[0]},
 
-انا *Lelouch*, مرحبا بك في ${metadata.subject}.
+انا *𝘌𝘓𝘡3𝘌𝘔 𝘎𝘖𝘕*, مرحبا بك في ${metadata.subject}.
 
 *وصف الجروب:*
 ${metadata.desc}
