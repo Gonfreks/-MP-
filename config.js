@@ -26,7 +26,7 @@ global.prefa = ['-']
 global.location = "Egypt,Egypt"
 global.reactmoji = "🖤"
 global.themeemoji = "✔"
-global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
+global.vidmenu = { url: 'https://telegra.ph/file/25ac27774c8a0420e2649.jpg' }
 global.websitex = "https://chat.whatsapp.com/FiRwXZoBuSyLlUZBtNAgx8"
 global.lolhuman = "KaysaS"
 
